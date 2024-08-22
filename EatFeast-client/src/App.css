@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    /* background-color: #fcfcfc; */
+}
+
+.section-container{
+    @apply max-w-screen-2xl container mx-auto xl:px-24 px-4;
+}
+
+header{
+    z-index: 10001 !important;
+}
+
+.subtitle{
+    @apply text-red font-medium tracking-wide uppercase text-lg;
+}
+
+.title{
+    @apply text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug;
+}
+
+.active{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #D94B1E
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
